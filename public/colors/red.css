@@ -1,0 +1,194 @@
+a, a:visited,
+.ui-datepicker-trigger:hover,
+a.btn,
+a.btn:visited,
+input[type=submit],
+button[type=submit] {
+  color: #d5372d; }
+
+a:hover {
+  color: #b12c23; }
+
+#paging a:hover,
+#paging span.current,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus,
+.item:hover a.btn, a.btn:hover,
+input[type=submit]:hover,
+button:hover,
+#slider a.btn.slide-more:hover,
+.b-form button[type=submit]:hover,
+.dk_theme_ci.dk_open .dk_toggle,
+.dk_theme_ci .dk_options {
+  border-color: #d5372d; }
+
+#paging span.current,
+.room-slider .flex-direction-nav a,
+.sidebar .testimonial-wrap blockquote,
+.col-sm-4 .testimonial-wrap blockquote,
+.item:hover a.btn, a.btn:hover,
+input[type=submit]:hover,
+button:hover,
+.dk_theme_ci .dk_options a:hover,
+.booking-inpage,
+.room-nav a.current-room,
+.room-nav a.current-room:visited,
+.room-nav a:hover,
+.item .offer,
+.book-widget-inner {
+  background-color: #d5372d; }
+
+.room-nav a.current-room:before,
+.room-nav a.current-room:visited:before,
+.room-nav a:hover:before {
+  border-right-color: #d5372d; }
+
+@media (max-width: 767px) {
+  .booking-wrap {
+    background-color: #d5372d; } }
+
+
+/*----NAV----*/
+
+.navigation a, .navigation #navigation a:visited {
+  display: block;
+  white-space: nowrap; }
+.navigation.left-nav {
+  margin-left: -12px; }
+.navigation.right-nav {
+  margin-right: -12px; }
+.navigation a, .navigation a:visited {
+  padding: 0 0;
+  color: #cf3232;
+  font-size: 13px;
+  text-transform: uppercase;
+  /* Global Menu Link Styles */ }
+.navigation a:hover,
+.navigation .sfHover > a,
+.navigation .sfHover > a:visited {
+  text-decoration: none;
+  /* First Level & Global Menu Link Hover Styles */ }
+.navigation > li > a,
+.navigation > li > a:visited {
+  margin: 0 12px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  /* First Level Menu Link Styles */ }
+.navigation > li li {
+  border: 1px solid transparent;
+  border-bottom: none; }
+.navigation > li ul > li:last-child {
+  border-bottom: 1px solid transparent; }
+.navigation > li > a:hover,
+.navigation > li.sfHover > a,
+.navigation > li.sfHover > a:visited {
+  border-bottom: 1px solid #cf3232;
+  /* First Level Menu Link Hover Styles */ }
+.navigation > li ul a,
+.navigation > li ul a:visited {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  font-size: 11px;
+  /* All Other Menu Level Link Styles */ }
+.navigation > li ul a:hover,
+.navigation > li ul .sfHover > a,
+.navigation > li ul .sfHover > a:visited {
+  background: #cf3232;
+  /* All Other Level Menu Link Hover Styles */ }
+.navigation > li > a:hover,
+.navigation > li.sfHover > a,
+.navigation > li.sfHover > a:active,
+.navigation > li.current_page_item > a,
+.navigation > li.current_page_item > a:visited,
+.navigation > li.current-menu-item > a,
+.navigation > li.current-menu-item > a:visited,
+.navigation > li.current-menu-ancestor > a,
+.navigation > li.current-menu-ancestor > a:visited,
+.navigation > li.current-menu-parent > a,
+.navigation > li.current-menu-parent > a:visited,
+.navigation > li.current > a,
+.navigation > li.current > a:visited {
+  color: #cf3232;
+  /* WordPress First Level Current/Ancestor Hover Page Styles */ }
+.navigation ul {
+  background: transparent;
+  border: 1px solid #cf3232;
+  min-width: 180px;
+  /* All Lower Level Menu Container Styles */ }
+.navigation a.sf-with-ul {
+  padding-right: 5px;
+  position: relative;
+  /* Styling for navigation arrows  ---------- */ }
+.navigation > li ul a,
+.navigation > li ul a:visited {
+  color: #6c6c6c;
+  background: rgba(250, 250, 250, 0.9);
+  padding: 8px 12px;
+  font-size: 11px;
+  /* All Other Menu Level Link Styles */ }
+.navigation > li ul a:hover,
+.navigation > li ul .sfHover > a,
+.navigation > li ul .sfHover > a:visited {
+  color: #6c6c6c;
+  background: #cf3232;
+  /* All Other Level Menu Link Hover Styles */ }
+.navigation ul {
+  border: 1px solid #C2C2C2; }
+.navigation.sf-arrows .sf-with-ul:after {
+  font-family: FontAwesome;
+  content: '\f107';
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.8;
+  right: -6px;
+  margin-top: -6px; }
+.navigation.sf-arrows ul .sf-with-ul:after {
+  content: '\f105';
+  font-size: 13px;
+  margin-top: 1px;
+  right: 8px;
+  /* Styling for right facing arrows  ---------- */ }
+
+/*----SLIDER----*/
+.slide-title {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -0.04em;
+  margin-bottom: 5px;
+  color: #cf3232; }
+
+.slide-subtitle {
+  font-family: Montserrat, sans-serif;
+  color: #cf3232;
+}
+
+#slider a.btn.slide-more {
+  display: inline-block;
+  margin-top: 70px;
+  color: #cf3232;
+  border-color: #cf3232;
+  font-size: 18px;
+  padding: 10px 45px; }
+
+#slider a.btn.slide-more:hover {
+  text-decoration: none; }
+
+.widget-area-1,
+.widget-area-2 {
+  margin-bottom: 25px; }
+
+
+.colored{
+  color: #CF3232!important;
+}
